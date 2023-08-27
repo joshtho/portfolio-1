@@ -1,26 +1,21 @@
 import './App.css';
 import MainPage from './components/MainPage';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Info from './components/Info';
 function App() {
   return (
-    <div className="App">
+    <div  >
       <>
-        <div id='stars'></div>
+        {/* <div id='stars'></div>
         <div id='stars2'></div>
-        <div id='stars3'></div>
-        <div id='title'>
-        <span>
-        THIS IS
-        </span>
-        <br/>
-        <span>
-        JOSHUA KEANE THOMPSON
-        </span>
-        <br/>
-        <br/>
-        
-        </div>
-      <MainPage />
+        <div id='stars3'></div>  */}
+        <Router>
+          <Routes>
+            <Route path='/links' element={<Info />} />
+            <Route path='/' element={<MainPage />} />
+          </Routes>
+        </Router>
+      
     </>
     </div>
   );
