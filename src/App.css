@@ -3,40 +3,71 @@
 }
 
 body {
-  background-image: url("https://img.freepik.com/free-photo/starry-night-sky_1048-11828.jpg?w=1060&t=st=1692916642~exp=1692917242~hmac=2249b06cc5ad075fb6d01f60f65d0660c53c0eb590d8389f883ff89ca8c02969");
+  background-image: url("https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
-
+#box {
+  position: relative;
+  background: rgba(16, 15, 15, 0.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.text {
+  color: #FFF;
+}
 
 .title {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 0;
   right: 0;
   color: #FFF;
   text-align: center;
-  font-family: "lato", sans-serif;
+  font-family: cursive;
   font-weight: 300;
-  font-size: 50px;
+  font-size: 30px;
   letter-spacing: 10px;
   margin-top: -60px;
   padding-left: 10px;
   animation: fadeIn 5s;
 }
-p {
+.bio {
+  position: fixed;
+
+  left: 0;
+  right: 0;
   text-align: center;
-  font-family: "lato", sans-serif;
-  font-weight: 300;
-  font-size: 50px;
-  letter-spacing: 10px;
+
+
   margin-top: -60px;
   padding-left: 10px;
-  animation: fadeIn 10s;
+  animation: fadeIn 5s;
 }
-.title span {
+
+.logo {
+  margin-top: 7.5rem;
+  width: 200px;
+  padding: .5rem;
+}
+.logo2 {
+  margin-top: 7.5rem;
+  width: 150px;
+  padding: .5rem;
+}
+bio p {
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  
+}
+.avatar {
+  margin-top: 60px;
+}
+/* .span {
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
+
 
 
 @keyframes fadeIn {

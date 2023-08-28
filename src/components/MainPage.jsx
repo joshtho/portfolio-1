@@ -5,20 +5,28 @@ import { useNavigate } from 'react-router-dom';
 function MainPage() {
   const navigate = useNavigate()
 
-  function handleClick() {
-    navigate("/links")
-  }
+  // function handleClick() {
+  //   navigate("/links")
+  // }
   return (
-    <div className='title' >
+    <div >
+      <div className='title' >
+        
+        <span >JOSHUA</span>
+        <br/>
+        <span >KEANE</span>
+        <br/>
+        <span>THOMPSON</span>
+        <br/>
+        <span>FULL STACK WEB DEVELOPER</span>
       <br></br>
-      <span>THIS IS JOSHUA</span>
-      <br/>
-      <span>KEANE</span>
-      <br/>
-      <span>THOMPSON</span>
-      <p>Problem solver and strong communicator eager to prove my value and talent at a well respected company like yours. Motivated to advance and expand my skill set through targeted mentorship and challenging projects.
-      </p>
-      <button onClick={handleClick}>Links</button>
+      <br></br>
+      <br></br>
+      <img className='logo' src='https://miro.medium.com/v2/resize:fit:640/1*qcZqFSdegzBIkxImgw5EJg.png'/>
+      <img className='logo' src='https://cdn.icon-icons.com/icons2/2699/PNG/512/reactjs_logo_icon_170805.png' />
+      <img className='logo2' src='https://cdn.icon-icons.com/icons2/2415/PNG/512/ruby_plain_wordmark_logo_icon_146362.png' />
+      <img className='logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/2560px-Ruby_On_Rails_Logo.svg.png' />
+      </div>
     </div>
   )
 }
