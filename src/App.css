@@ -93,6 +93,10 @@ bio p {
   overflow: hidden;
 }
 
+li {
+  text-align: left;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
