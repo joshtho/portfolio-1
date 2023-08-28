@@ -12,6 +12,9 @@ body {
 }
 .text {
   color: #FFF;
+  font-size: normal;
+  letter-spacing: normal;
+
 }
 
 .title {
@@ -52,6 +55,9 @@ body {
   width: 150px;
   padding: .5rem;
 }
+.btn-logo {
+  width: 100px
+}
 bio p {
   text-align: center;
   font-family: "lato", sans-serif;
@@ -67,8 +73,25 @@ bio p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 } */
+.text-container {
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
 
+.card {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  text-align: left;
+  background: white;
+  border-radius: .25rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 2);
+}
 
+.card-image {
+  overflow: hidden;
+}
 
 @keyframes fadeIn {
   from {
