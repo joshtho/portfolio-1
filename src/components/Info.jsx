@@ -1,14 +1,14 @@
 import React from 'react'
 
 function Info() {
-    const blogButton = <img className='btn-logo' src='https://cdn4.iconfinder.com/data/icons/social-media-circle-7/512/Medium_circle-512.png' />
-    const gallaButton = <img className='btn-logo' src='https://static-00.iconduck.com/assets.00/paint-brush-icon-2048x2048-g0m1nv6v.png' />
-    const weStayButton = <img className='btn-logo' src='https://static.thenounproject.com/png/18457-200.png' />
-    const mainPageButton = <img className='btn-logo' src='https://cdn-icons-png.flaticon.com/512/25/25231.png' />
-    
+    const blogButton = <img alt='' className='btn-logo' src='https://cdn4.iconfinder.com/data/icons/social-media-circle-7/512/Medium_circle-512.png' />
+    const galaButton = <img alt='' className='btn-logo' src='https://static-00.iconduck.com/assets.00/paint-brush-icon-2048x2048-g0m1nv6v.png' />
+    const weStayButton = <img alt='' className='btn-logo' src='https://static.thenounproject.com/png/18457-200.png' />
+    const mainPageButton = <img alt='' className='btn-logo' src='https://cdn-icons-png.flaticon.com/512/25/25231.png' />
+
     const url = {
         blog: "https://medium.com/@joshua.thompson0010",
-        galla: "https://github.com/joshtho/Galla",
+        gala: "https://github.com/joshtho/Gala",
         weStay: "https://github.com/joshtho/WeStay",
         mainPage: "https://github.com/joshtho"
 
@@ -35,7 +35,7 @@ function Info() {
         <button onClick={() => handleClick(url.mainPage)}>Github Mainpage {mainPageButton}</button>
         <br></br>
         <br></br>
-        <button onClick={() => handleClick(url.galla)}>Galla {gallaButton}</button>
+        <button onClick={() => handleClick(url.gala)}>Galla {galaButton}</button>
         <br></br>
         <br></br>
         <p className='text'>Galla is an art app made with a React frontend and Rails backend. I also use Redux toolkit for state management in the frontend</p>

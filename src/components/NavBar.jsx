@@ -1,6 +1,5 @@
-import Container from 'react-bootstrap/Container';
+
 import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 
 function NavBar() {
@@ -19,6 +18,7 @@ function NavBar() {
     //   </Container>
     // </Navbar>
     <Nav variant="tabs">
+        
       <Nav.Item>
         <Nav.Link as={Link} to='/'>JKT</Nav.Link>
       </Nav.Item>
