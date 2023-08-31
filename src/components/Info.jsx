@@ -35,10 +35,10 @@ function Info() {
         <button onClick={() => handleClick(url.mainPage)}>Github Mainpage {mainPageButton}</button>
         <br></br>
         <br></br>
-        <button onClick={() => handleClick(url.gala)}>Galla {galaButton}</button>
+        <button onClick={() => handleClick(url.gala)}>Gala {galaButton}</button>
         <br></br>
         <br></br>
-        <p className='text'>Galla is an art app made with a React frontend and Rails backend. I also use Redux toolkit for state management in the frontend</p>
+        <p className='text'>Gala is an art app made with a React frontend and Rails backend. I also use Redux toolkit for state management in the frontend</p>
         <br></br>
         <br></br>
         <br></br>

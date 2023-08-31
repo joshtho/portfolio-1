@@ -13,7 +13,7 @@ function Bio() {
         </p>
         <br></br>
         <br></br>
-        Relavent Languages
+        Relevant Languages
         <br></br>
         <ul >
             Frontend
