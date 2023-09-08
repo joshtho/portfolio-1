@@ -1,4 +1,8 @@
 import React from 'react'
+import Video from './Video'
+import { projects } from '../data/projects'
+import Project from './Project'
+import Container from 'react-bootstrap/Container'
 
 function Info() {
     const blogButton = <img alt='' className='btn-logo' src='https://cdn4.iconfinder.com/data/icons/social-media-circle-7/512/Medium_circle-512.png' />
@@ -12,41 +16,21 @@ function Info() {
         weStay: "https://github.com/joshtho/WeStay",
         mainPage: "https://github.com/joshtho"
 
+      }
 
-    }
     function handleClick(info) {
         window.open(info)
     }
+  
+    const showProjects = projects.map(project => (
+      <Project key={project.name} project={project} />
+    ))
+
   return (
-    <div className='title' >
-        Medium.com blog 
-        <br/>
-        <br/>
-        <button onClick={() => handleClick(url.blog)}>{blogButton}</button>
-        <br></br>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        Github Links
-        <br></br>
-        <br></br>
-        <button onClick={() => handleClick(url.mainPage)}>Github Mainpage {mainPageButton}</button>
-        <br></br>
-        <br></br>
-        <button onClick={() => handleClick(url.gala)}>Gala {galaButton}</button>
-        <br></br>
-        <br></br>
-        <p className='text'>Gala is an art app made with a React frontend and Rails backend. I also use Redux toolkit for state management in the frontend</p>
-        <br></br>
-        <br></br>
-        <br></br>
+    <Container >
+      <h1>Technical Projects</h1>
+      {showProjects}
         
-        <button onClick={() => handleClick(url.weStay)}>WeStay {weStayButton}</button>
-        <br/>
-        <br/>
-        <p className='text'>WeStay is vacation app made with a React frontend and Rails backend.</p>
         {/* <div className="card">
             <div className="card-image">
                 <img src={'https://i.imgur.com/ELlrren.png'} alt="cover"/>
@@ -66,7 +50,7 @@ function Info() {
               <button className="button">Github</button>
             </Link>
         </div> */}
-    </div>
+    </Container>
   )
 }
 
