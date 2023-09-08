@@ -28,28 +28,10 @@ function Info() {
 
   return (
     <Container >
-      <h1>Technical Projects</h1>
+      <br></br>
+      <h1 className='header'>Technical Projects</h1>
+      <hr style={{color: 'white'}}></hr>
       {showProjects}
-        
-        {/* <div className="card">
-            <div className="card-image">
-                <img src={'https://i.imgur.com/ELlrren.png'} alt="cover"/>
-            </div>
-            <div className='text-container'>
-              <div className="card-title">Dentonpalooza</div>
-              <div className="card-details">Freelance web development project for the Dentonpalooza festival in Denton, TX.</div>
-              <div className="card-details">● Utilized React and CSS to build an engaging, informational website.</div>
-              <div className="card-details">● Translated artistic direction into UI/UX, while incorporating sponsor identities.</div>
-              <div className="card-details">● Acquired firsthand exposure to professional and non-profit development dynamics.</div>
-              <div className="card-details">● Incorporated accessibility design tailored to users with visual impairments.</div>
-            </div>
-            <Link to={'https://giantcarlos.github.io/dentonpalooza23/'} target="_blank">
-              <button className="button">Live Link</button>
-            </Link>
-            <Link to={'https://github.com/giantcarlos/dentonpalooza23'} target="_blank">
-              <button className="button">Github</button>
-            </Link>
-        </div> */}
     </Container>
   )
 }
