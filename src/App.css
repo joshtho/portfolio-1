@@ -12,7 +12,7 @@ body {
   box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }
 .text {
-  color: #FFF;
+  color: #9a893b;
   font-size: normal;
   letter-spacing: normal;
 
@@ -20,12 +20,12 @@ body {
 
 .title {
   position: absolute;
-  top: 30%;
+  top: 15%;
   left: 0;
   right: 0;
   color: #FFF;
   text-align: center;
-  font-family: cursive;
+  
   font-weight: 300;
   font-size: 30px;
   letter-spacing: 10px;
@@ -68,6 +68,15 @@ bio p {
 }
 .avatar {
   margin-top: 60px;
+  margin-left: 15%;
+  border-radius: .25rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 2);
+  color: #d4cece;
+  flex: 0 0 100%;
+  flex-direction: row;
+}
+.flex-container {
+  display: flex;
 }
 /* .span {
   background: -webkit-linear-gradient(white, #38495a);
@@ -98,6 +107,10 @@ bio p {
 
 li {
   text-align: left;
+}
+
+hr {
+  color: 'white'
 }
 
 @keyframes fadeIn {

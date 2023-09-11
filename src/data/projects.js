@@ -6,34 +6,37 @@ export const projects = [
     {
       name: "Gala",
       desc: `Web application that lets a user save data on their favorite artists and their artworks.`,
-      img: { static: gala , gif: '' },
+      img: { static: gala },
       highlights: [
         
       ],
       stack: "React - Ruby on Rails - Redux",
       repo: "https://github.com/joshtho/Gala",
-      videoId: "Oj-Q_PpfJPM"
+      videoId: "Oj-Q_PpfJPM",
+      url: ''
     },
     {
       name: "WeStay",
       desc: `A vacation application where users can save their favorite Airbnbs and Vrbos, ect...`,
-      img: { static: westay , gif: '' },
+      img: { static: westay},
       highlights: [
         
       ],
       stack: "React - Ruby on Rails ",
       repo: "https://github.com/joshtho/WeStay",
-      videoId: ""
+      videoId: "",
+      url: ''
     },
     {
       name: "Medium",
       desc: `My Medium.com mainpage that contains all my technical blogs`,
-      img: { static: medium , gif: '' },
+      img: { static: medium },
       highlights: [
         
       ],
       stack: "",
-      repo: "https://github.com/joshtho/WeStay",
-      videoId: ""
+      repo: "",
+      videoId: "",
+      url: "https://medium.com/@joshua.thompson0010"
     },
 ]

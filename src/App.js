@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainPage from './components/MainPage';
 import NavBar from './components/NavBar';
 import Info from './components/Info';
-import Bio from './components/Bio';
+import Bio from './components/Resume';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Routes>
             <Route path='/links' element={<Info />} />
             <Route path='/' element={<MainPage />} />
-            <Route path='/bio' element={<Bio />} />
+            <Route path='/resume' element={<Bio />} />
           </Routes>
         </Router>
       

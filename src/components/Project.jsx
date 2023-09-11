@@ -16,7 +16,9 @@ function Project({project}) {
       <div className="img-container">
         <img title={`Go to ${project.name}`} src={project.img.static} alt={project.name} className="project-img" />
       </div>
+      <br></br>
       {project.name === "Medium" ? "": <Video project={project} />}
+      <br></br>
       <p>{project.desc}</p>
       {/* <ul className="highlights">
         {displayHighlights}
@@ -24,7 +26,8 @@ function Project({project}) {
       {/* <button className='youtube' onClick={handleVideoClick}><i className="fa-brands fa-youtube"></i> Video</button> */}
       <span className="tech">{project.stack}</span>
       {/* <a className="github" href={project.repo} target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i> Repo</a> */}
-      <br></br>
+      
+      <hr></hr>
     </Container>
   )
 }

@@ -11,7 +11,7 @@ function NavBar() {
           <Nav>
             <Nav.Link as={Link} to='/'>JKT</Nav.Link>
             <Nav.Link as={Link} to='/links'>My Links</Nav.Link>
-            <Nav.Link as={Link} to='/bio'>Bio</Nav.Link>
+            <Nav.Link as={Link} to='/resume'>Resume</Nav.Link>
           </Nav>
         </Container>
     </Navbar>
