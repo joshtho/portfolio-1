@@ -1,8 +1,12 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Video from './Video';
+import Button from 'react-bootstrap/Button'
 
 function Project({project}) {
+  function handleClick(url) {
+    window.open(url)
+  }
   return (
     <Container className='project-tile'  >
       {project.name === "Medium" ? 
@@ -14,8 +18,18 @@ function Project({project}) {
       <h2>{project.name}</h2>
       <br></br>
       <div className="img-container">
-        <img title={`Go to ${project.name}`} src={project.img.static} alt={project.name} className="project-img" />
+        <img 
+        onClick={() => handleClick(project.repo)} 
+        title={`Go to ${project.name}`} 
+        src={project.img.static} alt={project.name} 
+        className="project-img" />
       </div>
+      <br></br>
+      <Button 
+      variant='dark'
+      title={`Go to ${project.name}`}
+      >Link</Button>
+      <br></br>
       <br></br>
       {project.name === "Medium" ? "": <Video project={project} />}
       <br></br>

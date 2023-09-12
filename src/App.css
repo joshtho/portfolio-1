@@ -102,7 +102,7 @@ bio p {
 
 .project-img {
   width: 100%;
-  
+  cursor: pointer;
 }
 
 li {
@@ -130,4 +130,13 @@ h1.header {
 .project-tile {
   font-family: 'Times New Roman', Times, serif;
   color: #FFF;
+}
+
+.btn-dark.contact-btn {
+  margin: 7%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
 }

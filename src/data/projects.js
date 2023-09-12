@@ -35,7 +35,7 @@ export const projects = [
         
       ],
       stack: "",
-      repo: "",
+      repo: "https://medium.com/@joshua.thompson0010",
       videoId: "",
       url: "https://medium.com/@joshua.thompson0010"
     },
