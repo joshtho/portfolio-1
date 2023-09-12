@@ -7,6 +7,9 @@ function Project({project}) {
   function handleClick(url) {
     window.open(url)
   }
+const displayHighlights = project.highlights.map(text => (
+  <li>{text}</li>
+))
   return (
     <Container className='project-tile'  >
       {project.name === "Medium" ? 
@@ -34,9 +37,9 @@ function Project({project}) {
       {project.name === "Medium" ? "": <Video project={project} />}
       <br></br>
       <p>{project.desc}</p>
-      {/* <ul className="highlights">
+      <ul className="highlights">
         {displayHighlights}
-      </ul> */}
+      </ul>
       {/* <button className='youtube' onClick={handleVideoClick}><i className="fa-brands fa-youtube"></i> Video</button> */}
       <span className="tech">{project.stack}</span>
       {/* <a className="github" href={project.repo} target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i> Repo</a> */}
