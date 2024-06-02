@@ -27,7 +27,7 @@ export const projects = [
       ],
       stack: "React - Ruby on Rails ",
       repo: "https://github.com/joshtho/WeStay",
-      videoId: "sbzrSXH8xtI",
+      videoId: "nuQ-BWluMl4",
       url: ''
     },
     {

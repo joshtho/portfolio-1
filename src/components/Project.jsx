@@ -28,10 +28,10 @@ const displayHighlights = project.highlights.map(text => (
         className="project-img" />
       </div>
       <br></br>
-      <Button 
+      {/* <Button 
       variant='dark'
       title={`Go to ${project.name}`}
-      >Link</Button>
+      >Link</Button> */}
       <br></br>
       <br></br>
       {project.name === "Medium" ? "": <Video project={project} />}
