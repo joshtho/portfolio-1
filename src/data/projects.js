@@ -14,7 +14,7 @@ export const projects = [
       ],
       stack: "React - Ruby on Rails - Redux toolkit",
       repo: "https://github.com/joshtho/Gala",
-      videoId: "Oj-Q_PpfJPM",
+      videoId: "prBWNAV13sY",
       url: ''
     },
     {
